@@ -1,0 +1,35 @@
+# Paper on REST
+
+## Summary
+
+Some mouth shutters.
+
+## Why Ruby (on Rails)
+
+Agile as hell programing language from Japan. So much dynamics it's almost
+unbearable. Many good old names in industry are folowing Matz. We simply love
+it even if it's slow.
+
+Rails is new age framework which is best desribed with DRY. Also many good
+people are building it.
+
+## What is REST
+
+What tilkov is saying.
+
+## Why REST
+
+We strongly believe in simple distributed objects (resources?) above well
+tested and accepted protocol and format (HTTP)
+
+## How we use it
+
+Some examples from akropolis and so.
+
+## With which tools
+
+Rails and Cloudkit. Also good use case for key:value dbs. Some examples.
+
+## Final summary
+
+Some usual craps which sounds smart in applause.
