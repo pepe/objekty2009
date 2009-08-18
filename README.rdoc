@@ -13,9 +13,17 @@ to get html nice formated documents. Or
 
   % rake docs:history_markout
 
-to get html nice formated documents with git history.
+to get html nice formated documents with git history. Also added index
+refreshing:
+
+  % rake docs:refresh_index
+
+and cleaning like well behaved script should:
+
+  % rake docs:clean
 
 === Authors
+
 Josef Pospíšil <pepe@gravastar.cz>
 
 be sure to add your self if you touch anything.
