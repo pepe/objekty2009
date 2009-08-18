@@ -32,4 +32,4 @@ Rails and Cloudkit. Also good use case for key:value dbs. Some examples.
 
 ## Final summary
 
-Some usual craps which sounds smart in applause.
+Some usual crap which sounds smart in applause.
