@@ -5,9 +5,13 @@ Repository for anything related to conference Objekty 2009.
 All documents in txt are markdown formated plain text files. So there is nothing
 easier than to install markdown (http://github.com/karmi/markout/) and write:
 
-  % markout -h document.txt
+  % rake docs:markout
 
-to get html formated nice document with history of it.
+to get html nice formated documents. Or
+
+  % rake docs:history_markout
+
+to get html nice formated documents with git history.
 
 === Authors
 Josef Pospíšil <pepe@gravastar.cz>
