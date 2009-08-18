@@ -5,7 +5,7 @@ Repository for anything related to conference Objekty 2009.
 == Usage
 
 All documents in txt are markdown formated plain text files. So there is nothing
-easier than to install markdown (http://github.com/karmi/markout/) and write:
+easier than to install markout (http://github.com/karmi/markout/) and write:
 
   % rake docs:markout
 
