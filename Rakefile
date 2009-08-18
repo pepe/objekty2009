@@ -42,7 +42,7 @@ namespace :docs do
         index << "* [#{title.capitalize}](#{title}.html)\n\n"
       end
     end
-    puts "Index refreshed. Don't forget to run me after adding txt!"
+    puts "Index refreshed. Don't forget to run me after adding txt file!"
   end
 end
 
