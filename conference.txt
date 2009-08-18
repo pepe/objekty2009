@@ -1,0 +1,123 @@
+# OBJEKTY 2009
+Srdečně zveme na tradiční konferenci Objekty, která se letos uskuteční na Univerzitě Hradec Králové ve dnech 5 - 6. 11. 2009.
+
+## Místo konání konference 
+Univerzita Hradec Králové, Fakulta informatiky a managementu 
+Hradecká 1227, Hradec Králové
+
+Podrobné informace naleznete na konferenčím webu:   http://fim.uhk.cz/objekty/
+
+## Témata konference
+Hlavním cílem konference je výměna informací o nejnovějších trendech na poli OOT a výměna názorů odborníků z praxe a učitelů na výchovu pracovníků pro praxi. Konference poskytuje prostor pro širokou paletu témat z oblasti OOT:
+* Organizace a řízení projektů využívajících OOT
+* Agilní metodiky
+* UML
+* MDA a analýza požadavků na informační systémy
+* Metaprogramovaní
+* Aspektově orientované programovaní
+* Agenty a OOP
+* Distribuované objekty, webové služby a Internet
+* Objektové CAD, CAM a GIS
+* Objekty a paralelní zpracování
+* Komponenty a jejich využívání
+* Objektově orientovaná vývojová prostředí
+* Testovaní objektových aplikací
+* Třídně-instanční jazyky vs. beztřídní jazyky
+* Java, C++ a C#
+* Ontologie, datové modelování
+* Návrhové vzory
+* Objektové databáze
+* Výuka OOP, OOA, OOD
+* Výuka informatiky na středních školách
+
+### Řídící výbor
+* Tomáš  Kozel, FIM UHK
+* Alena Buchalcevová, FIS VŠE Praha
+* Vojtěch Merunka, PEF ČZU v Praze
+* Martin Molhanec, FEL ČVUT Praha
+* Karel Richta, MFF UK Praha
+* Ľubomír Sadloň, FRI ŽU Žilina
+* Václav Snášel, FEI VŠB-TU Ostrava
+* Programový výbor
+* Alena Buchalcevová, FIS VŠE Praha
+* Přemysl Brada, FAV ZČU Plzeň
+* Antonín Carda, Deloitte
+* Vratislav Datel, Infomedica s r.o.
+* Klára Hennyeyová, SPU v Nitre
+* František Huňka, PřF Ostravská Universita
+* Jan Jarolímek, PEF ČZU Praha
+* David Ježek, FEI VŠB-TU Ostrava
+* Dalibor Kačmář, Microsoft CZ
+* Jiří Kofránek, LF UK Praha
+* Tomáš Kozel, FIM UHK
+* Martin Lukáš, EDS s r.o.
+* Filip Malý, FIM UHK
+* Božena Mannová, FEL ČVUT Praha
+* Vojtěch Merunka, PEF ČZU Praha
+* Martin Molhanec, FEL ČVUT Praha
+* Arnošt Motyčka, PEF MZLU Brno
+* Josef Pavlíček, Sun
+* Rudolf Pecinovský, Amaio Technologies
+* Karel Richta, MFF UK Praha
+* Ľubomír Sadloň, FRI ŽU Žilina
+* Vladimír Sklenář, PřF UP Olomouc
+* Antonín Slabý, FIM UHK
+* Václav Snášel, FEI VŠB-TU Ostrava
+* Petr Šaloun, PřF OU v Ostravě
+* Svatopluk Štolfa, FEI VŠB-TU Ostrava
+* Jan Toman, Microsoft
+* Jiří Vaněk, PEF ČZU Praha
+* Miroslav Virius, FJFI ČVUT Praha
+* Štefan Zajac, JČMF a RVS AV ČR 
+### Program
+* tutoriály
+* vybrané příspěvky
+* společenský program
+* Jednací jazyky konference: angličtina, čeština, slovenština.
+
+### Pokyny pro autory
+Text příspěvku je v rozsahu maximálně 16 stran A4 (dle stylu pro sborník konference). Pro workshop postačí krátká zpráva o rozsahu 1/2 až 2 stránky. Příspěvky mohou být v českém, slovenském nebo anglickém jazyce ve formátu RTF, PDF, nebo PostScript. Definitivní verzi příspěvku je potřeba zaslat do 20.9.2009. Pro zaslání použijte registrační systém na adrese
+http://fim.uhk.cz/objekty/?objekty#form 
+Příspěvky projdou recenzí. Autoři budou informováni o přijetí nebo o zamítnutí příspěvku do 4.10.2009. Přijaté příspěvky musí být připraveny k tisku ve specifikovaném formátu do 11.10.2009. Požadovaný formát příspěvků, příspěvků k posterům i krátkých zpráv pro workshop je dle standardu Springer pro vědecké publikace a je uveřejněn na webové adrese 
+http://fim.uhk.cz/objekty/?objekty#instrukce 
+
+### Důležitá data
+<b>20. 9. 2009</b> - odeslání příspěvků k recenzi 
+
+<b>4. 10. 2009</b> - vyrozumění o přijetí příspěvku 
+
+<b>11. 10. 2009</b> - finální (camera ready) verze příspěvku 
+
+<b>25. 10 2009</b> - registrace účastníků 
+
+<b>27. 10. 2009</b> - realizace plateb 
+
+<b>5. a 6. 11. 2009</b> - konání konference  
+
+### Organizují
+
+* ČVUT Praha, FIT, katedra sw. inž., FEL, Katedra elektrotechnologie a FJFI, Katedra sw. inž.
+* Karlova univerzita, MFF, Katedra softwarového inženýrství a 1LF, ústav patofyziologie
+* ČZU Praha, PEF, Katedra informačního inženýrství a Katedra informačních technologií
+* Univerzita Hradec Králové, FIM, Katedra informatiky a kvantitativních metod
+* Ostravská univerzita v Ostravě, PřF, Katedra informatiky a počítačů
+* Žilinská Univerzita, FRI, Katedra softvérových technológií
+* VŠE Praha, FIS, Katedra informačních technologií
+* VŠB-TU Ostrava, FEI, Katedra informatiky
+* SPU v Nitre, FEM, Katedra informatiky
+* UP Olomouc, PřF, katedra informatiky
+* MZLU Brno, PEF, Ústav informatiky
+* Jednota slovenských a českých matematiků a fyziků
+* Rada vědeckých společností AV ČR
+* ACM Czech Chapter
+* Computerworld
+* Microsoft
+* IBM ČR
+ 
+
+Informace o konferenci jsou také k dispozici na adrese:  http://fim.uhk.cz/objekty/
+
+Kontaktní email - objekty@uhk.cz
+
+Pokud si již nepřejete zasílání informačních e-mailů o konferenci Objekty, odpovězte na tento email a do obsahu předmětu vložte NE.
+
