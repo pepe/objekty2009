@@ -2,7 +2,7 @@
 
 ## Summary
 
-Some mouth shutters.
+Some mouth shutters and how we roll.
 
 ## Why Ruby (on Rails)
 

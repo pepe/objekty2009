@@ -1,0 +1,23 @@
+# Workshop on TDD
+
+## Summary
+
+How we see it.
+
+## Small theory
+
+### TDD and BDD
+
+BDD like continuation of TDD. Movement behind BDD.
+
+### Minimum Ruby and rspec
+
+class
+  def
+
+describe
+  it
+
+## Small example
+
+Ares library commit by commit, push by push, more like reconstruction of process.
