@@ -2,6 +2,8 @@
 
 Repository for anything related to conference Objekty 2009.
 
+== Usage
+
 All documents in txt are markdown formated plain text files. So there is nothing
 easier than to install markdown (http://github.com/karmi/markout/) and write:
 
