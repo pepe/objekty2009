@@ -73,7 +73,7 @@ Hlavním cílem konference je výměna informací o nejnovějších trendech na 
 * tutoriály
 * vybrané příspěvky
 * společenský program
-* Jednací jazyky konference: angličtina, čeština, slovenština.
+* jednací jazyky konference: angličtina, čeština, slovenština.
 
 ### Pokyny pro autory
 Text příspěvku je v rozsahu maximálně 16 stran A4 (dle stylu pro sborník konference). Pro workshop postačí krátká zpráva o rozsahu 1/2 až 2 stránky. Příspěvky mohou být v českém, slovenském nebo anglickém jazyce ve formátu RTF, PDF, nebo PostScript. Definitivní verzi příspěvku je potřeba zaslat do 20.9.2009. Pro zaslání použijte registrační systém na adrese
