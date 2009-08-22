@@ -17,7 +17,12 @@ namespace :docs do
       begin
         Markout::Output.new(file, {:output => 'html', :history => true}).export(true)
       rescue
-        puts 'Have you added ' + file + ' to repo? Cos am dying here!'
+        if file == 'index.txt'
+          Markout::Output.new(file, {:output => 'html'}).export(true)
+          puts 'Exported fast: ' + file + ' to .html'
+        else
+          puts 'Have you added ' + file + ' to repo? Cos am dying here!'
+        end
       else
         puts 'Exported fast: ' + file + ' to .html'
       end
