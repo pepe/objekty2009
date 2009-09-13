@@ -1,23 +1,116 @@
-# Workshop on TDD
+# Workshop on BDD
 
 ## Summary
 
-How we see it.
+In this workshop authors would like to show some new techniques which are using
+for developing web application. All these practices are not entirely new, it's
+more of evolution of older good known ones.
+
+Language of choice for this purpose is Ruby, cause it's dynamics and
+objectiveness. Testing will be performed in Cucumber,  business-readable
+domain-specific language. Web framework which will fulfil all duties is Sinatra,
+lightweight DSL well positioned for rapid prototyping.
+
+As side notes we would like to introduce some other tools used in process of
+creating as PivotalTracker, pickler, scrum and others.
+
 
 ## Small theory
 
-### TDD and BDD
+### BDD
 
-BDD like continuation of TDD. Movement behind BDD.
+Behaviour-Driven Development (BDD) is an evolution in the thinking behind Test
+Driven Development and Acceptance Test Driven Planning. It also brings Domain
+Driven Design to the mix, which makes the relationship between these two
+powerful approaches to software development more evident. Big focus is on on the
+delivery of prioritised, verifiable business value by providing a common
+vocabulary that spans the divide between Business and Technology.
 
-### Minimum Ruby and rspec
+It presents a framework of activity based on three core principles:
 
-class
-  def
+* Business and Technology should refer to the same system in the same way 
 
-describe
-  it
+* Any system should have an identified, verifiable value to the business 
 
-## Small example
+* Up-front analysis, design and planning all have a diminishing return
 
-Ares library commit by commit, push by push, more like reconstruction of process.
+BDD relies on the use of a very specific (and small) vocabulary to minimise
+miscommunication and to ensure that everyone – the business, developers,
+testers, analysts and managers – are not only on the same page but using the
+same words.
+
+### TDD
+
+Test Driven Development has established itself as very valuable if not profound
+improvement in software development process. Of all benefits it deliver not all
+are related to testing how can one see from life-cycle to TDD's learning and
+adoption:
+
+1. The developer starts writing unit tests around their code using a test
+framework like JUnit or NUnit. 
+
+2. As the body of tests increases the developer begins to enjoy a strongly
+increased sense of confidence in their work. 
+
+3. At some point the developer has the insight (or is shown) that writing the
+tests before writing the code, helps them to focus on writing only the code that
+they need.
+
+4. The developer also notices that when they return to some code that they
+haven't seen for a while, the tests serve to document how the code works. 
+
+5. A point of revelation occurs when the developer realises that writing tests
+in this way helps them to “discover” the API to their code. TDD has now become a
+design process. 
+
+6. Expertise in TDD begins to dawn at the point where the developer realizes
+that TDD is about defining behaviour rather than testing. 
+
+7. Behaviour is about the interactions between components of the system and so
+the use of mocking is fundamental to advanced TDD.
+
+As you can see only first step is related to testing, for rest of them, testing
+is only secondary concern. The issue at the heart of this learning process is
+the behaviour of the system. Developers gain confidence in the systems they
+build when the behaviour of that system is confirmed. But all nomenclature
+surrounding it is described in terms of testing.
+
+BDD aims to bridge the gap between the differing views of computer systems held
+by Business users and Technologists. It is deeply rooted in the success of TDD
+and is influenced by ideas like Domain Driven Design. Its focus is on minimizing
+the hurdles between specification, design, implementation and confirmation of
+the behaviour of a system. Thus enabling the incremental delivery of business
+systems, and in particular in allowing teams new to agile development to quickly
+get up to speed using these extremely productive techniques.
+
+[http://behaviour-driven.org/Introduction]
+
+### Minimum Ruby, Cucumber and Sinatra
+
+*Ruby* is dynamic, interpreted, imperative, object-oriented (in smalltalks all is
+object meaning). Ruby supports multiple programming paradigms, including
+functional, object oriented, imperative and reflective. For purpose of this
+paper basics of language are not that important cause we will mostly use DSLs 
+through all examples showed in workshop.
+
+*Cucumber* is a tool that can execute plain-text documents as automated functional
+tests. Gherkin is the language that Cucumber understands. It is a Business
+Readable, Domain Specific Language that lets you describe software’s behaviour
+without detailing how that behaviour is implemented. Gherkin serves two purposes
+– documentation and automated tests.
+
+*Sinatra* is a DSL for quickly creating web applications in Ruby with minimal effort.
+It's aimed on small application or simple part of bigger systems
+
+[http://en.wikipedia.org/wiki/Ruby_(programming_language)]
+
+[http://wiki.github.com/aslakhellesoy/cucumber]
+
+[http://www.sinatrarb.com/intro.html]
+
+## Small example on unit testing 
+
+Ares library commit by commit, push by push, more like reconstruction of
+process.
+
+## Bigger example of adding feature to DMS
