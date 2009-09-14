@@ -100,7 +100,7 @@ without detailing how that behaviour is implemented. Gherkin serves two purposes
 – documentation and automated tests.
 
 *Sinatra* is a DSL for quickly creating web applications in Ruby with minimal effort.
-It's aimed on small application or simple part of bigger systems
+It's aimed on small application or simple part of bigger systems.
 
 [http://en.wikipedia.org/wiki/Ruby_(programming_language)]
 
