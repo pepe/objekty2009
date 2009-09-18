@@ -1,0 +1,110 @@
+# Workshop na Behavior driven development
+
+## Abstrakt
+
+V tomto workshopu by měli být ukázány nové techniky, které jsou v součastnosti
+používány pro vývoj webových aplikací. Tyto praktiky však nejsou uplně novou
+věcí, je to spíše evoluce již existujících dobře znamých. Cílem je ukázat
+implementaci jedné vlastnosti příkladového systemu s pomocí praktik BDD.
+
+Programovacím jazykem, ve kterém budou ukazovány jednotlivé postupy je zvoleno
+Ruby, kvůli své objektovosti a dynamičnosti. Testovací framework se jmenuje
+Cucumber, domain-specific language (DSL), kterému rozumí i lidé z bussinessu.
+Webový framework ukázaný v tomto workshopu je Sinatra. Take DSL, ale pro
+jednoduché a rychlé vytváření webových aplikací. Oba frameworky jsou napsány
+v Ruby.
+
+Ve vedlejší roli budou také ukázány další nastroje používané při agilním vývoji
+jako je Scrum, PivotalTracker a pickler.
+
+## Uvedení do problematiky
+
+### BDD
+
+Behaviour-Driven Development (BDD) je další vývojovou fází navazující na Test
+Driven Development a Acceptance Test Driven Planning. K těmto základům přidává
+Domain Driven Design (DDD), který jen zvyšuje evidentnost spojení těchto dvou silných
+přístupů. Hlavní pozornost je kladena na dodání prioritních, ověřitelných 
+přínosů pro podnikání, díky společnému slovníku, spojujícím rozdíly mezi
+podnikáním a technologiemi.
+
+Představuje framework pro tři principy založené na aktivitách:
+
+* Bussiness a IT se na systém odkazují stejným způsobem
+
+* Jakýkoliv systém by měl mít identifikovatelnou a ověřitelnou hodnotu pro
+podnikání
+
+* Analýza, design a plánování hodně dopředu mají snižující se hodnotu
+
+BDD spoléhá na použití velmi specifické (a malého) slovníku, který minimalizuje
+nedorozumění a zajišťuje že každý - bussiness, vývojáři, testeři, analitici a
+vedoucí pracovníci - nejsou jen na stejné straně, ale i že používají stejná
+slova.
+
+### TDD
+
+Test Driven Development se ustavil jako velmi hodnotný, jestli ne pronikavé
+zlepšení vývoje software. Ze všech výhod, které přináší ne všechny jsou spojené
+s testováním, jak je jasně vidět z životního cyklu učení a příjímaní TDD:
+
+1. Vývojář začne psát testy na svůj existující kód v JUnit neb NUnit.
+
+2. Jak se zvětšuje rozsah testů, vývojář začíná pociťovat uspokojení a silně
+zvýšený pocit důvěry ve svojí práci
+
+3. V  určitém bodě má vývojář jasnozření (nebo mu někdo ukáže), že psaní testů
+před vlastním kódem, mu pomáhá soustředit se pouze na kód který potřebují.
+
+4. Vývojář si také všímá toho, že když se vrátí ke kódu, který delší dobu
+neviděl, testy mu pomáhají jako dokumentace toho jak kód funguje.
+
+5. Zjevení se dostaví ve chvíli kdy vývojář pochopí, že psaní testů touto cestou
+mu pomáhá odkrýt API jeho kódu. TDD se stává návrhovým procesem.
+
+6. Expertýza v TDD záčíná stoupat v momentě, kdy si vývojář uvědomí, že TDD je
+více o chování systému, než o testovaní jeho funkce.
+
+7. Chování je o interakci mezi komponentami systému a použití simulací (mocking)
+je fundamentální součástí pokročilého TDD.
+
+Jak je jasně vidět pouze první dob je spojený s testováním, pro zbytek je to
+pouze podružná věc. Hlavní záležitost v jádru tohoto učícího procesu je chování
+systému. Vyvojářům se zvyšuje důvěra v systémy, které budují a chování systému
+je potvrzeno. Veškerá nomenklatura obklopující tento proces je v termínech 
+testování.
+
+BDD si dává za cíl překlenout rozdílné pohledy na počítačové systémy mezi
+bussiness uživateli a technniky. Je zakořeněný v úspěchu TDD a je ovlivněn 
+ideami jako je DDD. Fokus je na minimalizaci překážek mezi specifikací,
+návrhem, implementací a ověřením chování systému. Umožňuje tak přírůstkové
+dodávání bussiness systémů a specificky dovolující týmům novým agilnímu vývoji
+rychle získat potřebnou rychlost při použití těchto extrémně produktivních
+metod.
+
+[http://behaviour-driven.org/Introduction]
+
+### Minimum Ruby, Cucumber and Sinatra
+
+Ruby je dynamický, interpretovaný, imperativní a objektově orientovaný jazyk 
+(ve smalltalkovém smyslu slova). Ruby podporuje několik programovacích
+paradigmat včetně funkcionální a reflektivní vedle objektově orientovaného a
+imperativního. Pro účely tohoto workshopu nejsou natolik důležité vlastnosti,
+nebo syntaxe jazyka, protože hlavní části budou ukázány v DSL.
+
+Cucumber je nástroj, který dovoluje spustit čistě textové dokumenty jako
+automatické funkcionální testy. Jazyk kterému Cucumber rozumí se na nazývá
+Gherkin. Je to bussiness čitelný, doménově  specifický jazyk, který dovoluje
+popsat chování software bez detailního popisu fungování a implementace. Slouží
+tedy k dvěma hlavním cílům - dokumentaci a automatizovanému testování.
+
+*Sinatra* je doménově specifický jazyk pro rapidní vytváření a webových
+aplikací s minimálním usilím. Je zaměřen na malé aplikace a části vetších systémů.
+
+[http://en.wikipedia.org/wiki/Ruby_(programming_language)]
+
+[http://wiki.github.com/aslakhellesoy/cucumber]
+
+[http://www.sinatrarb.com/intro.html]
+
+## Demo time!
