@@ -3,11 +3,19 @@ desc "Format all txt files with markout with history"
 task :default => 'docs:history_markout'
 
 namespace :docs do
-  desc "Format all txt files with markout."
+  desc "Format all txt files with markout to html."
   task :markout do
     Dir['*.txt'].each do |file|
       Markout::Output.new(file, {:output => 'html'}).export(true)
       puts 'Exported fast: ' + file + ' to .html'
+    end
+  end
+
+  desc "Format all txt files with markout to pdf."
+  task :markout_pdf do
+    Dir['*.txt'].each do |file|
+      Markout::Output.new(file, {:output => 'pdf'}).export(true)
+      puts 'Exported fast: ' + file + ' to .pdf'
     end
   end
 
