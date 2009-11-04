@@ -1,21 +1,18 @@
-# Workshop na Behavior driven development
+# Příspěvek na Behavior driven development na konferenci Objekty 2009
 
 ## Abstrakt
 
 V tomto workshopu by měli být ukázány nové techniky, které jsou v součastnosti
 používány pro vývoj webových aplikací. Tyto praktiky však nejsou uplně novou
-věcí, je to spíše evoluce již existujících dobře znamých. Cílem je ukázat
+věcí, je to spíše evoluce již existujících dobře známých. Cílem je ukázat
 implementaci jedné vlastnosti příkladového systemu s pomocí praktik BDD.
 
-Programovacím jazykem, ve kterém budou ukazovány jednotlivé postupy je zvoleno
-Ruby, kvůli své objektovosti a dynamičnosti. Testovací framework se jmenuje
-Cucumber, domain-specific language (DSL), kterému rozumí i lidé z bussinessu.
-Webový framework ukázaný v tomto workshopu je Sinatra. Take DSL, ale pro
-jednoduché a rychlé vytváření webových aplikací. Oba frameworky jsou napsány
-v Ruby.
+Jako programovací jazyk, ve kterém budou ukazovány jednotlivé postupy je zvoleno
+Ruby, kvůli své objektovosti a dynamičnosti. Testovací framework Cucumber, je
+domain-specific language (DSL), kterému rozumí i lidé z bussinessu.
 
-Ve vedlejší roli budou také ukázány další nastroje používané při agilním vývoji
-jako je Scrum, PivotalTracker a pickler.
+Ve vedlejší roli budou také zmíněny další nástroje a postupy používané při
+agilním vývoji jako je Scrum, PivotalTracker a pickler.
 
 ## Uvedení do problematiky
 
@@ -23,12 +20,12 @@ jako je Scrum, PivotalTracker a pickler.
 
 Behaviour-Driven Development (BDD) je další vývojovou fází navazující na Test
 Driven Development a Acceptance Test Driven Planning. K těmto základům přidává
-Domain Driven Design (DDD), který jen zvyšuje evidentnost spojení těchto dvou silných
+Domain Driven Design (DDD), který zvyšuje evidentnost spojení těchto dvou silných
 přístupů. Hlavní pozornost je kladena na dodání prioritních, ověřitelných 
 přínosů pro podnikání, díky společnému slovníku, spojujícím rozdíly mezi
 podnikáním a technologiemi.
 
-Představuje framework pro tři principy založené na aktivitách:
+Představuje rámec pro tři principy založené na aktivitách:
 
 * Bussiness a IT se na systém odkazují stejným způsobem
 
@@ -37,14 +34,14 @@ podnikání
 
 * Analýza, design a plánování hodně dopředu mají snižující se hodnotu
 
-BDD spoléhá na použití velmi specifické (a malého) slovníku, který minimalizuje
+BDD spoléhá na použití velmi specifického (a malého) slovníku, který minimalizuje
 nedorozumění a zajišťuje že každý - bussiness, vývojáři, testeři, analitici a
 vedoucí pracovníci - nejsou jen na stejné straně, ale i že používají stejná
 slova.
 
 ### TDD
 
-Test Driven Development se ustavil jako velmi hodnotný, jestli ne pronikavé
+Test Driven Development se ustavil jako velmi hodnotné, ba přímo ne pronikavé
 zlepšení vývoje software. Ze všech výhod, které přináší ne všechny jsou spojené
 s testováním, jak je jasně vidět z životního cyklu učení a příjímaní TDD:
 
@@ -68,7 +65,7 @@ více o chování systému, než o testovaní jeho funkce.
 7. Chování je o interakci mezi komponentami systému a použití simulací (mocking)
 je fundamentální součástí pokročilého TDD.
 
-Jak je jasně vidět pouze první dob je spojený s testováním, pro zbytek je to
+Jak je jasně vidět pouze první bod je spojený s testováním, pro zbytek je to
 pouze podružná věc. Hlavní záležitost v jádru tohoto učícího procesu je chování
 systému. Vyvojářům se zvyšuje důvěra v systémy, které budují a chování systému
 je potvrzeno. Veškerá nomenklatura obklopující tento proces je v termínech 
@@ -107,4 +104,3 @@ aplikací s minimálním usilím. Je zaměřen na malé aplikace a části vetš
 
 [http://www.sinatrarb.com/intro.html]
 
-## Demo time!
